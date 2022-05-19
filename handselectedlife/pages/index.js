@@ -6,13 +6,11 @@ import NavBar from '../components/NavBar'
 
 function HomePage() {
   return ( 
-  <div>
+  <div className={styles.container}> 
     <Head>
       <title>
-    HANDSELECTED LIFE
     </title>
     </Head>
-    handselected life
     <NavBar />
   </div>
   )
